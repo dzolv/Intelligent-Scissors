@@ -36,7 +36,10 @@ Desktop.ini
 # Project-Specific Large Files - As requested
 # =================================================================
 # Documentation PDFs and presentation files
-/docs/
+
+docs/*
+
+!docs/
 
 !docs/report.pdf
 
