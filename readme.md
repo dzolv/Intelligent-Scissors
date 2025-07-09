@@ -1,3 +1,4 @@
+
 # Intelligent Scissors: Interactive Image Segmentation
 
 This project is a Java-based implementation of the "Intelligent Scissors" algorithm, a classic interactive tool for image segmentation. It allows a user to quickly and accurately extract objects from an image by tracing their edges with minimal effort.
@@ -26,8 +27,8 @@ This implementation is built using Java and the **LWJGL 3** library for windowin
 
 ### Building the Project
 
-1.  **Clone the repository (replace the URL).**
-
+1.  **Clone the repository.**
+    
 2.  **Build with Maven:**
     From the root directory of the project, run the following command. This will compile the source code and package it into a single, executable JAR file.
     ```bash
@@ -74,3 +75,4 @@ The interactive controls are designed for speed. Note the distinction between th
 This work is an implementation of the concepts presented in the following foundational papers:
 -   [1] Mortensen, E. N., & Barrett, W. A. (1995). Intelligent scissors for image composition. In *Proceedings of the 22nd annual conference on Computer graphics and interactive techniques* (pp. 191-198).
 -   [2] Mortensen, E. N., & Barrett, W. A. (1997). Interactive live-wire boundary extraction. *Medical Image Analysis, 1*(4), 331-341.
+
