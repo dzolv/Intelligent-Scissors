@@ -5,8 +5,6 @@ This project is a Java-based implementation of the "Intelligent Scissors" algori
 
 This implementation is built using Java and the **LWJGL 3** library for windowing and rendering. It features an advanced, non-blocking architecture to maintain a responsive user interface even while pathfinding on large images.
 
-![Demo GIF](assets/demo.gif)
-
 ## Core Features
 
 -   **Advanced Feature Extraction**: Computes a cost map for pathfinding based on:
