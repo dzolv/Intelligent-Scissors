@@ -1,0 +1,54 @@
+# =================================================================
+# Maven - Ignore build output and logs
+# =================================================================
+/target/
+*.log
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# =================================================================
+# IDE and System Files - Ignore personal settings and OS files
+# =================================================================
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =================================================================
+# Project-Specific Large Files - As requested
+# =================================================================
+# Documentation PDFs and presentation files
+/docs/
+
+# Asset images used for testing or visualization
+/assets/
+
+# If you have any other large PNG/PDF files in the root,
+# list them specifically or use a wildcard.
+# For example, to ignore all PDFs in the root:
+*.pdf
+*.png
+
+# =================================================================
+# Secrets and Environment Variables - CRITICAL
+# =================================================================
+.env
+*.properties
