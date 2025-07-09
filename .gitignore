@@ -38,6 +38,8 @@ Desktop.ini
 # Documentation PDFs and presentation files
 /docs/
 
+!docs/report.pdf
+
 # Asset images used for testing or visualization
 /assets/
 
