@@ -12,6 +12,14 @@ dependency-reduced-pom.xml
 buildNumber.properties
 
 # =================================================================
+# Secrets and Environment Variables - CRITICAL
+# Be specific to avoid ignoring necessary config files like application.properties
+# =================================================================
+.env
+*secret.properties
+*local.properties
+
+# =================================================================
 # IDE and System Files - Ignore personal settings and OS files
 # =================================================================
 # VS Code
@@ -33,27 +41,17 @@ Thumbs.db
 Desktop.ini
 
 # =================================================================
-# Project-Specific Large Files - As requested
+# General file types to ignore
+# Put general rules here, before the specific exceptions below.
 # =================================================================
-# Documentation PDFs and presentation files
-
-docs/*
-
-!docs/
-
-!docs/report.pdf
-
-# Asset images used for testing or visualization
-/assets/
-
-# If you have any other large PNG/PDF files in the root,
-# list them specifically or use a wildcard.
-# For example, to ignore all PDFs in the root:
 *.pdf
 *.png
 
 # =================================================================
-# Secrets and Environment Variables - CRITICAL
+# Project-Specific Exceptions
+# Whitelist specific files and folders that would otherwise be ignored.
 # =================================================================
-.env
-*.properties
+docs/*
+!docs/
+
+!docs/report.pdf
